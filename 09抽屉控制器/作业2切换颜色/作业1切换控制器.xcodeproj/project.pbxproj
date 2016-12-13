@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DFA930C1CD82B4D00CA40BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA930B1CD82B4D00CA40BB /* main.m */; };
+		1DFA930F1CD82B4D00CA40BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA930E1CD82B4D00CA40BB /* AppDelegate.m */; };
+		1DFA93171CD82B4D00CA40BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DFA93161CD82B4D00CA40BB /* Assets.xcassets */; };
+		1DFA931A1CD82B4D00CA40BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DFA93181CD82B4D00CA40BB /* LaunchScreen.storyboard */; };
+		1DFA93351CD82B7200CA40BB /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA932D1CD82B7200CA40BB /* MMDrawerBarButtonItem.m */; };
+		1DFA93361CD82B7200CA40BB /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA93301CD82B7200CA40BB /* MMDrawerController.m */; };
+		1DFA93371CD82B7200CA40BB /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA93321CD82B7200CA40BB /* MMDrawerVisualState.m */; };
+		1DFA93381CD82B7200CA40BB /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA93341CD82B7200CA40BB /* UIViewController+MMDrawerController.m */; };
+		1DFA933B1CD82CAA00CA40BB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA933A1CD82CAA00CA40BB /* TableViewController.m */; };
+		1DFA93621CD833C400CA40BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA93601CD833C400CA40BB /* ViewController.m */; };
+		1DFA93631CD833C400CA40BB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DFA93611CD833C400CA40BB /* ViewController.xib */; };
+		1DFA93651CD8345800CA40BB /* color.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DFA93641CD8345800CA40BB /* color.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DFA93071CD82B4D00CA40BB /* 作业1切换控制器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "作业1切换控制器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFA930B1CD82B4D00CA40BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DFA930D1CD82B4D00CA40BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DFA930E1CD82B4D00CA40BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DFA93161CD82B4D00CA40BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DFA93191CD82B4D00CA40BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DFA931B1CD82B4D00CA40BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DFA932C1CD82B7200CA40BB /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		1DFA932D1CD82B7200CA40BB /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		1DFA932E1CD82B7200CA40BB /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		1DFA932F1CD82B7200CA40BB /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		1DFA93301CD82B7200CA40BB /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		1DFA93311CD82B7200CA40BB /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		1DFA93321CD82B7200CA40BB /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		1DFA93331CD82B7200CA40BB /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		1DFA93341CD82B7200CA40BB /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		1DFA93391CD82CAA00CA40BB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		1DFA933A1CD82CAA00CA40BB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		1DFA935F1CD833C400CA40BB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DFA93601CD833C400CA40BB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DFA93611CD833C400CA40BB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		1DFA93641CD8345800CA40BB /* color.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = color.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DFA93041CD82B4D00CA40BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DFA92FE1CD82B4D00CA40BB = {
+			isa = PBXGroup;
+			children = (
+				1DFA93091CD82B4D00CA40BB /* 作业1切换控制器 */,
+				1DFA93081CD82B4D00CA40BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DFA93081CD82B4D00CA40BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DFA93071CD82B4D00CA40BB /* 作业1切换控制器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DFA93091CD82B4D00CA40BB /* 作业1切换控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				1DFA93641CD8345800CA40BB /* color.plist */,
+				1DFA932B1CD82B7200CA40BB /* MMDrawerController */,
+				1DFA930D1CD82B4D00CA40BB /* AppDelegate.h */,
+				1DFA930E1CD82B4D00CA40BB /* AppDelegate.m */,
+				1DFA93391CD82CAA00CA40BB /* TableViewController.h */,
+				1DFA933A1CD82CAA00CA40BB /* TableViewController.m */,
+				1DFA935F1CD833C400CA40BB /* ViewController.h */,
+				1DFA93601CD833C400CA40BB /* ViewController.m */,
+				1DFA93611CD833C400CA40BB /* ViewController.xib */,
+				1DFA93161CD82B4D00CA40BB /* Assets.xcassets */,
+				1DFA93181CD82B4D00CA40BB /* LaunchScreen.storyboard */,
+				1DFA931B1CD82B4D00CA40BB /* Info.plist */,
+				1DFA930A1CD82B4D00CA40BB /* Supporting Files */,
+			);
+			path = "作业1切换控制器";
+			sourceTree = "<group>";
+		};
+		1DFA930A1CD82B4D00CA40BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DFA930B1CD82B4D00CA40BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DFA932B1CD82B7200CA40BB /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				1DFA932C1CD82B7200CA40BB /* MMDrawerBarButtonItem.h */,
+				1DFA932D1CD82B7200CA40BB /* MMDrawerBarButtonItem.m */,
+				1DFA932E1CD82B7200CA40BB /* MMDrawerController+Subclass.h */,
+				1DFA932F1CD82B7200CA40BB /* MMDrawerController.h */,
+				1DFA93301CD82B7200CA40BB /* MMDrawerController.m */,
+				1DFA93311CD82B7200CA40BB /* MMDrawerVisualState.h */,
+				1DFA93321CD82B7200CA40BB /* MMDrawerVisualState.m */,
+				1DFA93331CD82B7200CA40BB /* UIViewController+MMDrawerController.h */,
+				1DFA93341CD82B7200CA40BB /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DFA93061CD82B4D00CA40BB /* 作业1切换控制器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFA931E1CD82B4D00CA40BB /* Build configuration list for PBXNativeTarget "作业1切换控制器" */;
+			buildPhases = (
+				1DFA93031CD82B4D00CA40BB /* Sources */,
+				1DFA93041CD82B4D00CA40BB /* Frameworks */,
+				1DFA93051CD82B4D00CA40BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "作业1切换控制器";
+			productName = "作业1切换控制器";
+			productReference = 1DFA93071CD82B4D00CA40BB /* 作业1切换控制器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DFA92FF1CD82B4D00CA40BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "徐锐";
+				TargetAttributes = {
+					1DFA93061CD82B4D00CA40BB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1DFA93021CD82B4D00CA40BB /* Build configuration list for PBXProject "作业1切换控制器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DFA92FE1CD82B4D00CA40BB;
+			productRefGroup = 1DFA93081CD82B4D00CA40BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DFA93061CD82B4D00CA40BB /* 作业1切换控制器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DFA93051CD82B4D00CA40BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFA93651CD8345800CA40BB /* color.plist in Resources */,
+				1DFA931A1CD82B4D00CA40BB /* LaunchScreen.storyboard in Resources */,
+				1DFA93631CD833C400CA40BB /* ViewController.xib in Resources */,
+				1DFA93171CD82B4D00CA40BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DFA93031CD82B4D00CA40BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFA93371CD82B7200CA40BB /* MMDrawerVisualState.m in Sources */,
+				1DFA930F1CD82B4D00CA40BB /* AppDelegate.m in Sources */,
+				1DFA93621CD833C400CA40BB /* ViewController.m in Sources */,
+				1DFA93351CD82B7200CA40BB /* MMDrawerBarButtonItem.m in Sources */,
+				1DFA93381CD82B7200CA40BB /* UIViewController+MMDrawerController.m in Sources */,
+				1DFA93361CD82B7200CA40BB /* MMDrawerController.m in Sources */,
+				1DFA933B1CD82CAA00CA40BB /* TableViewController.m in Sources */,
+				1DFA930C1CD82B4D00CA40BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DFA93181CD82B4D00CA40BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DFA93191CD82B4D00CA40BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DFA931C1CD82B4D00CA40BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DFA931D1CD82B4D00CA40BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DFA931F1CD82B4D00CA40BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "作业1切换控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CORYIL.--1-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DFA93201CD82B4D00CA40BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "作业1切换控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CORYIL.--1-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DFA93021CD82B4D00CA40BB /* Build configuration list for PBXProject "作业1切换控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFA931C1CD82B4D00CA40BB /* Debug */,
+				1DFA931D1CD82B4D00CA40BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DFA931E1CD82B4D00CA40BB /* Build configuration list for PBXNativeTarget "作业1切换控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFA931F1CD82B4D00CA40BB /* Debug */,
+				1DFA93201CD82B4D00CA40BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DFA92FF1CD82B4D00CA40BB /* Project object */;
+}
